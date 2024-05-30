@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: "blog_app"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blog_app
+    username: postgres
+    password: sdbarakzai123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+
+
